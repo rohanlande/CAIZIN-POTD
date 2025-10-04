@@ -19,6 +19,8 @@ class TwoSumTest {
         int [] nums = {1,2,3};
         int target = 10;
         List <Integer> result = solution.twoSum(nums,target);
+        assertNotNull(result);
+        assertEquals(0, result.size());
     }
 
 }
